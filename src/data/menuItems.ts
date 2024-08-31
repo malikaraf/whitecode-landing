@@ -3,25 +3,25 @@ const menuItems = [
     name: "Home",
     link: "/",
   },
-  {
+  { 
     name: "Our Work",
-    link: "#"
+    link: "/work"
   },
   {
     name: "Services",
-    link: "#",
+    link: "/services",
   },
   {
     name: "About Us",
-    link: "#"
+    link: "/about"
   },
   {
     name: "News",
-    link: "#",
+    link: "/news",
   },
   {
     name: "Contact Us",
-    link: "#"
+    link: "/contact"
   },
 ];
 
