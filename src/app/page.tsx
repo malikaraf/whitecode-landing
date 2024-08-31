@@ -1,4 +1,4 @@
-import Header from "@/components/header/header";
+import Header from "@/sections/header/header";
 import Image from "next/image";
 
 export default function Home() {
