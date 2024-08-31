@@ -13,9 +13,11 @@ import {
 import menuItems from "@/data/menuItems";
 import Image from "next/image";
 import Logo from "@/assets/images/Logo_White.png"
+import { usePathname } from "next/navigation";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
 	return (
 		<Navbar
@@ -53,8 +55,8 @@ const Header = () => {
 
 			<NavbarContent className="hidden md:flex gap-12 tracking-tight" justify="center">
 				{menuItems.map((item, index) => (
-					<NavbarItem key={index} isActive={index === 2}>
-						<Link href={item.link} className={`${index === 2 && "!text-accent"}`}>
+					<NavbarItem key={index} isActive={pathname === item.link}>
+						<Link href={item.link} className={`${pathname === item.link && "!text-accent"}`}>
 							{item.name}
 						</Link>
 					</NavbarItem>
