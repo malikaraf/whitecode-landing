@@ -27,6 +27,7 @@ const config: Config = {
       },
       colors: {
         'primary': '#ECEEFF',
+        'accent': '#3F9EB7',
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
