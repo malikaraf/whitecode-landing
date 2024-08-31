@@ -49,7 +49,7 @@ const Header = () => {
 					className="md:hidden text-white"
 				/>
 				<NavbarBrand>
-          <Image src={Logo} alt="White Code" width={0} height={0} className="w-24" />
+          <Link href="/"><Image src={Logo} alt="White Code" width={0} height={0} className="w-24" /></Link>
 				</NavbarBrand>
 			</NavbarContent>
 
