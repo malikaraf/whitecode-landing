@@ -1,5 +1,4 @@
-import Footer from "@/sections/footer/footer";
-import Header from "@/sections/header/header";
+import {Header, Footer} from "@/sections";
 import Image from "next/image";
 
 export default function Home() {
