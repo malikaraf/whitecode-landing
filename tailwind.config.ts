@@ -27,8 +27,8 @@ const config: Config = {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        'primary': '#ECEEFF',
-        'accent': '#3F9EB7',
+        'primary': '#3F9EB7',
+        'accent': '#ECEEFF',
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
