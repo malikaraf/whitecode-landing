@@ -1,4 +1,4 @@
-const menuItems = [
+export const navLinks = [
   {
     name: "Home",
     link: "/",
@@ -24,5 +24,3 @@ const menuItems = [
     link: "/contact"
   },
 ];
-
-export default menuItems;

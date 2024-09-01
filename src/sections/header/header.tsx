@@ -10,7 +10,7 @@ import {
 	NavbarMenu,
 	NavbarMenuItem,
 } from "@nextui-org/react";
-import menuItems from "@/data/menuItems";
+import {navLinks} from "@/data";
 import Image from "next/image";
 import Logo from "@/assets/images/Logo_White.png"
 import { usePathname } from "next/navigation";
@@ -54,7 +54,7 @@ const Header = () => {
 			</NavbarContent>
 
 			<NavbarContent className="hidden md:flex gap-12 tracking-tight" justify="center">
-				{menuItems.map((item, index) => (
+				{navLinks.map((item, index) => (
 					<NavbarItem key={index} isActive={pathname === item.link}>
 						<Link href={item.link} className={`${pathname === item.link && "!text-accent"}`}>
 							{item.name}
@@ -62,14 +62,14 @@ const Header = () => {
 					</NavbarItem>
 				))}
 			</NavbarContent>
-			<NavbarMenu>
-				{menuItems.map((item, index) => (
+			<NavbarMenu className="bg-[#000000de]"> 
+				{navLinks.map((item, index) => (
 					<NavbarMenuItem key={index}>
 						<Link
 							color={
 								index === 2
 									? "primary"
-									: index === menuItems.length - 1
+									: index === navLinks.length - 1
 									? "danger"
 									: "foreground"
 							}
