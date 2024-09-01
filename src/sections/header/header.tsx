@@ -24,7 +24,7 @@ const Header = () => {
 			shouldHideOnScroll
 			onMenuOpenChange={setIsMenuOpen}
 			maxWidth="full"
-			className="!bg-black"
+			className="!bg-black px-8"
       height="5rem"
       classNames={{
         item: [
@@ -46,14 +46,14 @@ const Header = () => {
 			<NavbarContent>
 				<NavbarMenuToggle
 					aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-					className="md:hidden text-white"
+					className="lg:hidden text-white"
 				/>
 				<NavbarBrand>
           <Link href="/"><Image src={Logo} alt="White Code" width={0} height={0} className="w-24" /></Link>
 				</NavbarBrand>
 			</NavbarContent>
 
-			<NavbarContent className="hidden md:flex gap-12 tracking-tight" justify="center">
+			<NavbarContent className="hidden lg:flex gap-16" justify="center">
 				{navLinks.map((item, index) => (
 					<NavbarItem key={index} isActive={pathname === item.link}>
 						<Link href={item.link} className={`${pathname === item.link && "!text-accent"}`}>
@@ -66,16 +66,9 @@ const Header = () => {
 				{navLinks.map((item, index) => (
 					<NavbarMenuItem key={index}>
 						<Link
-							color={
-								index === 2
-									? "primary"
-									: index === navLinks.length - 1
-									? "danger"
-									: "foreground"
-							}
-							className="w-full"
+							className={`w-full m-2 ${pathname === item.link && "!text-accent"}`}
 							href="#"
-							size="lg"
+							size="md"
 						>
 							{item.name}
 						</Link>
