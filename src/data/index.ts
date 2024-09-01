@@ -1,3 +1,5 @@
+import { ICONS } from "@/utils/icons";
+
 // Navbar Links
 export const navLinks = [
 	{
@@ -49,3 +51,23 @@ export const footerLinks = {
 		},
 	],
 };
+
+// Footer Socials
+export const footerSocials = [
+  {
+    icon: ICONS.instagram,
+    link: "https://www.instagram.com",
+  },
+  {
+    icon: ICONS.twitter,
+    link: "https://www.twitter.com",
+  },
+  {
+    icon: ICONS.youtube,
+    link: "https://www.youtube.com",
+  },
+  {
+    icon: ICONS.linkedin,
+    link: "https://www.linkedin.com",
+  },
+];
