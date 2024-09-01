@@ -39,7 +39,7 @@ const Header = () => {
           "data-[active=true]:after:right-0",
           "data-[active=true]:after:h-[3px]",
           "data-[active=true]:after:rounded-[2px]",
-          "data-[active=true]:after:bg-accent",
+          "data-[active=true]:after:bg-primary",
         ],
       }}
 		>
@@ -56,7 +56,7 @@ const Header = () => {
 			<NavbarContent className="hidden lg:flex gap-16" justify="center">
 				{navLinks.map((item, index) => (
 					<NavbarItem key={index} isActive={pathname === item.link}>
-						<Link href={item.link} className={`${pathname === item.link && "!text-accent"}`}>
+						<Link href={item.link} className={`text-accent ${pathname === item.link && "!text-primary"}`}>
 							{item.name}
 						</Link>
 					</NavbarItem>
