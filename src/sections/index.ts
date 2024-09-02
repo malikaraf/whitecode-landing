@@ -4,7 +4,7 @@ import Footer from "./footer/footer";
 // Shared Section
 import Chat from "./shared/chat";
 
-//Home Sections
+// Home Sections
 import Hero from "./home/hero";
 import Mission from "./home/mission";
 import Project from "./home/project";
@@ -13,6 +13,11 @@ import Locations from "./home/locations";
 import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
+
+// Contact Us Sections
+import ContactChat from "./contact/contact-chat";
+import ContactForm from "./contact/contact-form";
+import Addresses from "./contact/addresses";
 
 export {
   Header,
@@ -26,4 +31,7 @@ export {
   Discover,
   Vision,
   Values,
+  ContactChat,
+  ContactForm,
+  Addresses
 }
