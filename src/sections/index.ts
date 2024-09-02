@@ -1,9 +1,29 @@
 import Header from "./header/header";
 import Footer from "./footer/footer";
+
+// Shared Section
+import Chat from "./shared/chat";
+
+//Home Sections
 import Hero from "./home/hero";
+import Mission from "./home/mission";
+import Project from "./home/project";
+import Services from "./home/services";
+import Locations from "./home/locations";
+import Discover from "./home/discover";
+import Vision from "./home/vision";
+import Values from "./home/values";
 
 export {
   Header,
   Footer,
+  Chat,
   Hero,
+  Mission,
+  Project,
+  Services,
+  Locations,
+  Discover,
+  Vision,
+  Values,
 }
