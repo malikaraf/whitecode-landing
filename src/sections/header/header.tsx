@@ -56,7 +56,7 @@ const Header = () => {
 			<NavbarContent className="hidden lg:flex gap-16" justify="center">
 				{navLinks.map((item, index) => (
 					<NavbarItem key={index} isActive={pathname === item.link}>
-						<Link href={item.link} className={`text-accent ${pathname === item.link && "!text-primary"}`}>
+						<Link href={item.link} className={`font-montserrat text-accent ${pathname === item.link && "!text-primary"}`}>
 							{item.name}
 						</Link>
 					</NavbarItem>
@@ -66,8 +66,8 @@ const Header = () => {
 				{navLinks.map((item, index) => (
 					<NavbarMenuItem key={index}>
 						<Link
-							className={`w-full m-2 ${pathname === item.link && "!text-accent"}`}
-							href="#"
+							className={`w-full m-2 font-montserrat text-accent ${pathname === item.link && "!text-primary"}`}
+							href={item.link}
 							size="md"
 						>
 							{item.name}
