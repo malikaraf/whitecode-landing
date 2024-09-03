@@ -25,6 +25,7 @@ const config: Config = {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        jura: ['Jura', 'sans-serif'],
       },
       colors: {
         'primary': '#3F9EB7',
