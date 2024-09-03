@@ -34,6 +34,15 @@ const config: Config = {
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-50%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 10s linear forwards',
+      },
     },
   },
   darkMode: "class",
