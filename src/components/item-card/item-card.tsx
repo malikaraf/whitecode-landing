@@ -28,7 +28,7 @@ const ItemCard = ({
 				/>
 			</CardBody>
 			<CardFooter className="text-small justify-between items-start flex-col gap-2">
-				<span className="font-montserrat text-lg md:text-xl font-[600] text-start h-[2.5rem]">{title}</span>
+				<span className="font-montserrat text-sm md:text-xl font-[500] text-start h-[3rem] sm:h-[2.5rem]">{title}</span>
 				{date && <p className="text-default-500">{date}</p>}
 			</CardFooter>
 		</Card>
