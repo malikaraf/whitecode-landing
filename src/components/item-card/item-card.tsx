@@ -15,7 +15,7 @@ const ItemCard = ({
 			shadow="sm"
 			isPressable
 			// onPress={() => console.log("item pressed")}
-			className="px-2 py-3 w-[324px] max-md:w-[243px] max-sm:w-[162px]"
+			className="px-2 py-3 w-[324px] max-md:w-[243px] max-sm:w-[162px] gap-2"
 		>
 			<CardBody className="overflow-hidden p-0 h-[182px] max-md:h-[136px] max-sm:h-[91px]">
 				<Image
@@ -27,8 +27,8 @@ const ItemCard = ({
 					src={`/${img}`}
 				/>
 			</CardBody>
-			<CardFooter className="text-small justify-between">
-				<span className="font-montserrat text-lg md:text-xl font-[600]">{title}</span>
+			<CardFooter className="text-small justify-between items-start flex-col gap-2">
+				<span className="font-montserrat text-lg md:text-xl font-[600] text-start h-[2.5rem]">{title}</span>
 				{date && <p className="text-default-500">{date}</p>}
 			</CardFooter>
 		</Card>
