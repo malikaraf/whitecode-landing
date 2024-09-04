@@ -15,9 +15,9 @@ const ItemCard = ({
 			shadow="sm"
 			isPressable
 			// onPress={() => console.log("item pressed")}
-			className="px-2 py-3 w-[324px] max-sm:w-[162px]"
+			className="px-2 py-3 w-[324px] max-md:w-[243px] max-sm:w-[162px]"
 		>
-			<CardBody className="overflow-hidden p-0 h-[182px] max-sm:h-[91px]">
+			<CardBody className="overflow-hidden p-0 h-[182px] max-md:h-[136px] max-sm:h-[91px]">
 				<Image
 					shadow="sm"
 					radius="lg"
