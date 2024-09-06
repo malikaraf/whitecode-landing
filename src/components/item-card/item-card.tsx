@@ -15,15 +15,15 @@ const ItemCard = ({
 			shadow="sm"
 			isPressable
 			// onPress={() => console.log("item pressed")}
-			className="px-2 py-3 w-[324px] max-md:w-[243px] max-sm:w-[162px] gap-2"
+			className="px-2 py-3 w-[20rem] max-md:w-[15rem] max-sm:w-[10rem] gap-2"
 		>
-			<CardBody className="overflow-hidden p-0 h-[182px] max-md:h-[136px] max-sm:h-[91px]">
+			<CardBody className="overflow-hidden p-0 aspect-[16/9]">
 				<Image
 					shadow="sm"
 					radius="lg"
 					width="100%"
 					alt={title}
-					className="object-cover object-top h-auto hover:animate-scroll"
+					className="object-cover object-top h-full hover:animate-scroll"
 					src={`/${img}`}
 				/>
 			</CardBody>
