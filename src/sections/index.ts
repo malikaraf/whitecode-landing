@@ -16,6 +16,7 @@ import Values from "./home/values";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
+import AllWorks from "./work/all-works";
 
 // Services Sections
 import ServicesHero from "./services/services-hero";
@@ -39,6 +40,7 @@ export {
   Vision,
   Values,
   WorkHero,
+  AllWorks,
   ServicesHero,
   AllServices,
   ContactChat,
