@@ -1,4 +1,4 @@
-import { AllServices, ServicesHero } from '@/sections'
+import { AllServices, Chat, ServicesHero } from '@/sections'
 import React from 'react'
 
 const Services = () => {
@@ -6,6 +6,7 @@ const Services = () => {
     <main>
       <ServicesHero />
       <AllServices />
+      <Chat />
     </main>
   )
 }
