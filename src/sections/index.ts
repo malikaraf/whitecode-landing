@@ -14,6 +14,9 @@ import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
 
+// Work Sections
+import WorkHero from "./work/work-hero";
+
 // Services Sections
 import ServicesHero from "./services/services-hero";
 import AllServices from "./services/all-services";
@@ -35,6 +38,7 @@ export {
   Discover,
   Vision,
   Values,
+  WorkHero,
   ServicesHero,
   AllServices,
   ContactChat,
