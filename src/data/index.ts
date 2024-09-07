@@ -71,3 +71,45 @@ export const footerSocials = [
     link: "https://www.linkedin.com",
   },
 ];
+
+export const carouselProjects = [
+	{
+		name: "Project 1",
+		img: "project1.png",
+	},
+	{
+		name: "AFUbot",
+		img: "project2.png",
+	}
+]
+
+export const services = [
+	{
+		name: "Web Application",
+		img: "project1.png",
+	},
+	{
+		name: "Mobile Application",
+		img: "project1.png",
+	},
+	{
+		name: "Desktop Application",
+		img: "project1.png",
+	},
+	{
+		name: "EAS",
+		img: "project1.png",
+	},
+	{
+		name: "Custom AI & Image Processing Solution",
+		img: "project1.png",
+	},
+	{
+		name: "Dedicated Software Team",
+		img: "project1.png",
+	},
+	{
+		name: "IoT Application & Embedded Systems",
+		img: "project1.png",
+	},
+];

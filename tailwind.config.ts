@@ -17,14 +17,17 @@ const config: Config = {
       lg: ['18px', '21.94px'],
       xl: ['20px', '24.38px'],
       '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '50px'],
-      '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
+      '3xl': ['28px', '32px'], 
+      '4xl': ['32px', '38px'],
+      '5xl': ['40px', '48px'],
+      '6xl': ['48px', '58px'],
+      '8xl': ['96px', '106px'],
     },
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        jura: ['Jura', 'sans-serif'],
       },
       colors: {
         'primary': '#3F9EB7',
@@ -32,6 +35,15 @@ const config: Config = {
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-50%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 10s linear forwards',
       },
     },
   },

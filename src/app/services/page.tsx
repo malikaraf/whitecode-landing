@@ -1,8 +1,13 @@
+import { AllServices, Chat, ServicesHero } from '@/sections'
 import React from 'react'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <main>
+      <ServicesHero />
+      <AllServices />
+      <Chat />
+    </main>
   )
 }
 
