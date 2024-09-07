@@ -72,6 +72,17 @@ export const footerSocials = [
   },
 ];
 
+export const carouselProjects = [
+	{
+		name: "Project 1",
+		img: "project1.png",
+	},
+	{
+		name: "AFUbot",
+		img: "project2.png",
+	}
+]
+
 export const services = [
 	{
 		name: "Web Application",
