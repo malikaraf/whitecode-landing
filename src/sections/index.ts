@@ -22,6 +22,11 @@ import AllWorks from "./work/all-works";
 import ServicesHero from "./services/services-hero";
 import AllServices from "./services/all-services";
 
+// About Us Sections
+import AboutHero from "./about/about-hero";
+import AboutMission from "./about/about-mission";
+import Story from "./about/story";
+
 // Contact Us Sections
 import ContactChat from "./contact/contact-chat";
 import ContactForm from "./contact/contact-form";
@@ -43,6 +48,9 @@ export {
   AllWorks,
   ServicesHero,
   AllServices,
+  AboutHero,
+  AboutMission,
+  Story,
   ContactChat,
   ContactForm,
   Addresses,
