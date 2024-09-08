@@ -10,7 +10,7 @@ const ContactForm = () => {
       style={{ backgroundImage: "url('/Form.png')" }}
     >
       <div>
-        <p className="text-[3rem] text-center mb-[30px] ml-[60px] my-[500px] pt-[50px]">
+        <p className="text-[3rem] text-center mb-[30px] ml-[10px] my-[500px] pt-[50px]">
           Let's have a chat!
         </p>
       </div>
