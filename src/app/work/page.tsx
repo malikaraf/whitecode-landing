@@ -1,6 +1,6 @@
 import { ImageCarousel } from '@/components'
 import { carouselProjects } from '@/data'
-import { AllWorks, WorkHero } from '@/sections'
+import { AllWorks, Chat, WorkHero } from '@/sections'
 import React from 'react'
 
 const Work = () => {
@@ -9,6 +9,7 @@ const Work = () => {
       <WorkHero />
       <ImageCarousel projects={carouselProjects} />
       <AllWorks />
+      <Chat />
     </div>
   )
 }
