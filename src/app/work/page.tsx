@@ -5,12 +5,12 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div>
+    <main>
       <WorkHero />
       <ImageCarousel projects={carouselProjects} />
       <AllWorks />
       <Chat />
-    </div>
+    </main>
   )
 }
 
