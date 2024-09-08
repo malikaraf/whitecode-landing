@@ -81,6 +81,49 @@ export const carouselProjects = [
 		name: "AFUbot",
 		img: "project2.png",
 	}
+];
+
+export const projects = [
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
 ]
 
 export const services = [
