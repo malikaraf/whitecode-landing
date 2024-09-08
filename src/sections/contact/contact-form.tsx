@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import {Button, ButtonGroup} from "@nextui-org/button";
+import {RadioGroup, Radio} from "@nextui-org/radio";
 import { Input } from "@nextui-org/react";
 import { ICONS } from "@/utils/icons";
+
 
 const ContactForm = () => {
   return (
@@ -25,16 +28,15 @@ const ContactForm = () => {
         {/* Reasons of Interest - Radio Buttons */}
         <p className="my-2">Reasons of interest</p>
         <div className="flex flex-col space-y-4">
-          {["Project", "Recruitment", "Other"].map((reason) => (
-            <label key={reason} className="inline-flex items-center">
-              <input
-                type="radio"
-                name="reason"
-                className="form-radio text-black"
-              />
-              <span className="ml-2">{reason}</span>
-            </label>
-          ))}
+        <RadioGroup
+     
+      color="secondary"
+      defaultValue="london"
+    >
+      <Radio value="Project">Project</Radio>
+      <Radio value="Recruitment">Recruitment</Radio>
+      <Radio value="Other">Other</Radio>
+      </RadioGroup>
         </div>
 
         {/* CAPTCHA */}
@@ -66,9 +68,9 @@ const ContactForm = () => {
        
 
         {/* Submit Button */}
-        <button className="bg-black hover:bg-blue-400 text-white font-bold py-1 px-[67px] rounded-lg mt-5">
+        <Button className="bg-black hover:bg-blue-400 text-white font-bold py-1 px-[67px] rounded-lg mt-5">
           Submit
-        </button>
+        </Button>
       </div>
 
       <div>

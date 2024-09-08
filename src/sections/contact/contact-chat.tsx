@@ -2,16 +2,16 @@ import React from "react";
 
 const ContactChat = () => {
   return (
-    <div className="font-inter w-full overflow-x-hidden pb-[-800px]">
-      <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="font-inter w-full overflow-x-hidden">
+      <div className="flex flex-col items-center justify-center pt-[220px]">
         <div className="text-center">
           <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-5">The Future</p>
-          <p className="text-5xl md:text-7xl lg:text-[4.5rem]">Awaits</p>
+          <p className="text-5xl md:text-7xl lg:text-[4.5rem] pt-5">Awaits</p>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 pt-3">
           <p className="text-lg">Have a project? Let's Chat!</p>
         </div>
-        <div className="mt-4">
+        <div className="mt-7">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
