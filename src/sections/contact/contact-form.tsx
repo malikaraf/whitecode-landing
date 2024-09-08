@@ -1,20 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { Input } from "@nextui-org/react";
+import { ICONS } from "@/utils/icons";
 
-interface InputProps {
-  label: string;
-  type: string;
-}
-
-const Input: React.FC<InputProps> = ({ label, type }) => (
-  <div className="mb-4">
-    <p className="mb-2">{label}</p>
-    <input
-      type={type}
-      className="block w-[300px] h-10 bg-white-50 border rounded-lg border-gray-300"
-    />
-  </div>
-);
 const ContactForm = () => {
   return (
     <div
@@ -22,17 +10,17 @@ const ContactForm = () => {
       style={{ backgroundImage: "url('/Form.png')" }}
     >
       <div>
-        <p className="text-[3rem] text-center mb-[30px] mr-5 my-[500px] pt-[50px]">
+        <p className="text-[3rem] text-center mb-[30px] ml-[60px] my-[500px] pt-[50px]">
           Let's have a chat!
         </p>
       </div>
 
       <div className="mx-[400px] my-[180px] ">
         {/* Name Input */}
-        <Input label="Name" type="text" />
+        <Input label="Name" type="text" placeholder="Name" labelPlacement="outside" className="my-[40px] w-[300px] " />
 
         {/* Professional Email Input */}
-        <Input label="Professional email address" type="email" />
+        <Input label="Professional Email" placeholder="Professional Email Input" type="email" labelPlacement="outside" className="w-[300px]"  />
 
         {/* Reasons of Interest - Radio Buttons */}
         <p className="my-2">Reasons of interest</p>
@@ -56,20 +44,26 @@ const ContactForm = () => {
       </div>
 
       {/* Right Column with Surname, Company, and Message */}
-      <div className="mx-[850px] my-[-526px]">
+      <div className="mx-[850px] my-[-525px] w-[300px]  ">
         {/* Surname Input */}
-        <Input label="Surname" type="text" />
+        <Input label="Surname" placeholder="Surname" labelPlacement="outside" type="text" className="pt-[30px]" />
         <div className="mb-2 whitespace-nowrap">
           {/* Name of the Company Input */}
-          <Input label="Name of the Company" type="text" />
+          <Input label="Name of the Company" placeholder="Name of the Company"labelPlacement="outside" type="text" className="pt-5 pb-2" />
         </div>
 
         {/* Message Input */}
-        <p className="mb-2">Message</p>
-        <input
+        <p className="mb-2"></p>
+        
+        <Input
+        label="Message"
           type="text"
-          className="block w-[300px] h-[100px] bg-white-50 border rounded-lg border-gray-300 mb-4"
+          placeholder="Message"
+          labelPlacement="outside"
+          
+          className="block w-[300px] h-[100px]   border-gray-300 pt-3"
         />
+       
 
         {/* Submit Button */}
         <button className="bg-black hover:bg-blue-400 text-white font-bold py-1 px-[67px] rounded-lg mt-5">
@@ -80,50 +74,10 @@ const ContactForm = () => {
       <div>
         {/* social media icon */}
         <ul className="mx-[1350px] my-[200px] space-y-2 ">
-          <li>
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 448 512"
-              >
-                <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-              </svg>
-            </span>
-          </li>
-          <li>
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 576 512"
-              >
-                <path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
-              </svg>
-            </span>
-          </li>
-          <li>
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 448 512"
-              >
-                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-              </svg>
-            </span>
-          </li>
-          <li>
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 512 512"
-              >
-                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-              </svg>
-            </span>
-          </li>
+          <li>{ICONS.linkedin}</li>
+          <li>{ICONS.youtube}</li>
+          <li>{ICONS.instagram}</li>
+          <li>{ICONS.twitter}</li>
         </ul>
       </div>
     </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Addresses = () => {
   return (
     <div>
-      <div className="bg-black w-full ">
+      <div className="bg-black w-full">
       <div className="mx-auto  max-w-[90%] w-auto overflow-hidden ">
     <p className="text-[64px] mt-[200px] font-montserrat text-white text-center whitespace-nowrap">Where to find Us</p>
   </div>
