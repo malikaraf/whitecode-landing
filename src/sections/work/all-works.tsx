@@ -41,7 +41,7 @@ const AllWorks = () => {
 			</motion.div>
 
 			<AnimatePresence>
-        {visibleProjects > 6 && (
+        {visibleProjects > VIEW_COUNT && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
@@ -50,7 +50,7 @@ const AllWorks = () => {
             className="w-[100%] md:w-[70vw] flex justify-center items-center gap-5 lg:gap-10 flex-wrap"
           >
             {additionalProjects.map((project, index) => (
-              <ItemCard key={index + 6} title={project.name} img={project.img} />
+              <ItemCard key={index + VIEW_COUNT} title={project.name} img={project.img} />
             ))}
           </motion.div>
         )}
