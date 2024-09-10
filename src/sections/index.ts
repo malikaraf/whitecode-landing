@@ -27,6 +27,10 @@ import AboutHero from "./about/about-hero";
 import AboutMission from "./about/about-mission";
 import Story from "./about/story";
 
+// News Sections
+import NewsHero from "./news/news-hero";
+import AllNews from "./news/all-news";
+
 // Contact Us Sections
 import ContactChat from "./contact/contact-chat";
 import ContactForm from "./contact/contact-form";
@@ -51,6 +55,8 @@ export {
   AboutHero,
   AboutMission,
   Story,
+  NewsHero,
+  AllNews,
   ContactChat,
   ContactForm,
   Addresses,

@@ -1,8 +1,15 @@
+import { ImageCarousel } from '@/components'
+import { AllNews, Chat, NewsHero } from '@/sections'
 import React from 'react'
 
 const News = () => {
   return (
-    <div>News</div>
+    <div>
+      <NewsHero />
+      {/* Carousel Here */}
+      <AllNews />
+      <Chat />
+    </div>
   )
 }
 
