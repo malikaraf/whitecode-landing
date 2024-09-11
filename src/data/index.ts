@@ -54,22 +54,22 @@ export const footerLinks = {
 
 // Footer Socials
 export const footerSocials = [
-  {
-    icon: ICONS.instagram,
-    link: "https://www.instagram.com",
-  },
-  {
-    icon: ICONS.twitter,
-    link: "https://www.twitter.com",
-  },
-  {
-    icon: ICONS.youtube,
-    link: "https://www.youtube.com",
-  },
-  {
-    icon: ICONS.linkedin,
-    link: "https://www.linkedin.com",
-  },
+	{
+		icon: ICONS.instagram,
+		link: "https://www.instagram.com",
+	},
+	{
+		icon: ICONS.twitter,
+		link: "https://www.twitter.com",
+	},
+	{
+		icon: ICONS.youtube,
+		link: "https://www.youtube.com",
+	},
+	{
+		icon: ICONS.linkedin,
+		link: "https://www.linkedin.com",
+	},
 ];
 
 export const carouselProjects = [
@@ -80,7 +80,7 @@ export const carouselProjects = [
 	{
 		name: "AFUbot",
 		img: "project2.png",
-	}
+	},
 ];
 
 export const projects = [
@@ -124,7 +124,7 @@ export const projects = [
 		img: "project2.png",
 		link: "#",
 	},
-]
+];
 
 export const services = [
 	{
@@ -154,5 +154,59 @@ export const services = [
 	{
 		name: "IoT Application & Embedded Systems",
 		img: "project1.png",
+	},
+];
+
+export const carouselNews = [
+	{
+		name: "News 1",
+		img: "project1.png",
+	},
+	{
+		name: "AFUbot",
+		img: "project2.png",
+	},
+];
+
+export const allNews = [
+	{
+		name: "News 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 3",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 4",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 5",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 6",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 7",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 8",
+		img: "project2.png",
+		link: "#",
 	},
 ];
