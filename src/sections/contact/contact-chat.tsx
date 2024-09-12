@@ -5,7 +5,9 @@ const ContactChat = () => {
     <div className="font-inter w-full overflow-x-hidden">
       <div className="flex flex-col items-center justify-center pt-[220px]">
         <div className="text-center">
-          <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-5">The Future</p>
+          <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-5">
+            The Future
+          </p>
           <p className="text-5xl md:text-7xl lg:text-[4.5rem] pt-5">Awaits</p>
         </div>
         <div className="mt-5 pt-3">
