@@ -3,6 +3,7 @@ import {
 	Discover,
 	Hero,
 	Locations,
+	Map,
 	Mission,
 	Project,
 	Services,
@@ -23,6 +24,7 @@ export default function Home() {
 			<Vision />
 			<Values />
 			<Chat />
+			<Map />
 		</main>
 	);
 }
