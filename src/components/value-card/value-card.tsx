@@ -1,4 +1,3 @@
-"use client";
 import {Card, CardHeader, CardBody, Divider } from "@nextui-org/react";
 
 const ValueCard = ({ title, description } : {title: string, description: string}) => {
