@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion"
 import { ValueCard } from "@/components";
 import { values } from "@/data";
 import AboutValuesImage from "@/assets/images/about-values-image.png";
@@ -9,9 +11,9 @@ const AboutValues = () => {
 			<Image src={AboutValuesImage} className="max-md:hidden object-cover w-[40%] h-auto" alt="About Values Image" />
 			<div className="flex flex-col justify-center items-center gap-10">
 				{values.map((value: any, index: number) => (
-					<div key={index}>
+					<motion.div key={index}>
 						<ValueCard title={value.title} description={value.description} />
-					</div>
+					</motion.div>
 				))}
 			</div>
 		</div>
