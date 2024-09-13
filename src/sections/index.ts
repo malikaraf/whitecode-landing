@@ -26,6 +26,7 @@ import AllServices from "./services/all-services";
 import AboutHero from "./about/about-hero";
 import AboutMission from "./about/about-mission";
 import Story from "./about/story";
+import AboutValues from "./about/about-values";
 
 // News Sections
 import NewsHero from "./news/news-hero";
@@ -55,6 +56,7 @@ export {
   AboutHero,
   AboutMission,
   Story,
+  AboutValues,
   NewsHero,
   AllNews,
   ContactChat,
