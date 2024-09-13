@@ -3,6 +3,7 @@ import Footer from "./footer/footer";
 
 // Shared Section
 import Chat from "./shared/chat";
+import Map from "./shared/map";
 
 // Home Sections
 import Hero from "./home/hero";
@@ -41,6 +42,7 @@ export {
   Header,
   Footer,
   Chat,
+  Map,
   Hero,
   Mission,
   Project,
