@@ -157,6 +157,21 @@ export const services = [
 	},
 ];
 
+export const values = [
+	{
+		title: "Empowering Women in Technology",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+	{
+		title: "Supporting Employment for Individuals with Disabilities",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+	{
+		title: "Advancing Tech Education in Underrepresented Areas",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+]
+
 export const carouselNews = [
 	{
 		name: "News 1",
