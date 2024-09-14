@@ -225,3 +225,9 @@ export const allNews = [
 		link: "#",
 	},
 ];
+
+export const countries: any = {
+  Australia: { name: "Australia", address: "576 Flinders Lane Melbourne VIC 3000" },
+  Finland: { name: "Finland", address: "Helsinki, Finland 00100" },
+  Bangladesh: { name: "Bangladesh", address: "Dhaka, Bangladesh 1000" },
+};
