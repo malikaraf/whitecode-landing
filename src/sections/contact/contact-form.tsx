@@ -82,7 +82,7 @@ const ContactForm = () => {
 
   {/* Social Media Icons */}
 
-  <div className="grid grid-cols-1 place-items-right">
+  <div className="grid [;">
     <ul className="">
       <li>{ICONS.linkedin}</li>
       <li>{ICONS.youtube}</li>
