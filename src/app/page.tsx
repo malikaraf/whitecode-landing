@@ -24,7 +24,6 @@ export default function Home() {
 			<Vision />
 			<Values />
 			<Chat />
-			<Map />
 		</main>
 	);
 }
