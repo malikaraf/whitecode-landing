@@ -7,7 +7,7 @@ import { Button } from "@nextui-org/react";
 const Chat = () => {
 	return (
 		<div
-			className="w-full padding md:px-44 flex flex-col justify-center items-start gap-8 h-[calc(100vh-100px)] chat-background"
+			className="w-full padding md:px-44 flex flex-col justify-center items-start gap-8 h-[45vh] md:h-[calc(100vh-100px)] chat-background"
 			style={{
 				background: `url(${GradientBackground.src})`,
 				backgroundSize: "cover",
@@ -19,7 +19,7 @@ const Chat = () => {
 				initial={{ opacity: 0, x: -10 }}
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.6 }}
-				className="font-jura text-4xl md:text-5xl lg:text-6xl xl:text-[64px] font-[600] tracking-wide leading-snug"
+				className="font-jura text-3xl md:text-4xl lg:text-6xl xl:text-[64px] font-[600] tracking-wide leading-snug"
 			>
 				Got a project? Lets <br />
 				have a chat.
@@ -36,7 +36,7 @@ const Chat = () => {
 					endContent={ICONS.arrow_right}
 				>
 					<div className=" py-4">
-						<span className="text-2xl">Lets have a Chat</span>
+						<span className="text-base md:text-xl lg:text-2xl">Lets have a Chat</span>
 					</div>
 				</Button>
 			</motion.div>

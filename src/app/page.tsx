@@ -3,6 +3,7 @@ import {
 	Discover,
 	Hero,
 	Locations,
+	Map,
 	Mission,
 	Project,
 	Services,

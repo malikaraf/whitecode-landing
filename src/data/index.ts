@@ -54,22 +54,22 @@ export const footerLinks = {
 
 // Footer Socials
 export const footerSocials = [
-  {
-    icon: ICONS.instagram,
-    link: "https://www.instagram.com",
-  },
-  {
-    icon: ICONS.twitter,
-    link: "https://www.twitter.com",
-  },
-  {
-    icon: ICONS.youtube,
-    link: "https://www.youtube.com",
-  },
-  {
-    icon: ICONS.linkedin,
-    link: "https://www.linkedin.com",
-  },
+	{
+		icon: ICONS.instagram,
+		link: "https://www.instagram.com",
+	},
+	{
+		icon: ICONS.twitter,
+		link: "https://www.twitter.com",
+	},
+	{
+		icon: ICONS.youtube,
+		link: "https://www.youtube.com",
+	},
+	{
+		icon: ICONS.linkedin,
+		link: "https://www.linkedin.com",
+	},
 ];
 
 export const carouselProjects = [
@@ -80,8 +80,51 @@ export const carouselProjects = [
 	{
 		name: "AFUbot",
 		img: "project2.png",
-	}
-]
+	},
+];
+
+export const projects = [
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "Project 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "Project 2",
+		img: "project2.png",
+		link: "#",
+	},
+];
 
 export const services = [
 	{
@@ -113,3 +156,78 @@ export const services = [
 		img: "project1.png",
 	},
 ];
+
+export const values = [
+	{
+		title: "Empowering Women in Technology",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+	{
+		title: "Supporting Employment for Individuals with Disabilities",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+	{
+		title: "Advancing Tech Education in Underrepresented Areas",
+		description: "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women by providing opportunities, mentorship, and resources to excel in technology roles.",
+	},
+]
+
+export const carouselNews = [
+	{
+		name: "News 1",
+		img: "project1.png",
+	},
+	{
+		name: "AFUbot",
+		img: "project2.png",
+	},
+];
+
+export const allNews = [
+	{
+		name: "News 1",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 2",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 3",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 4",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 5",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 6",
+		img: "project2.png",
+		link: "#",
+	},
+	{
+		name: "News 7",
+		img: "project1.png",
+		link: "#",
+	},
+	{
+		name: "News 8",
+		img: "project2.png",
+		link: "#",
+	},
+];
+
+export const countries: any = {
+  Australia: { name: "Australia", address: "576 Flinders Lane Melbourne VIC 3000" },
+  Finland: { name: "Finland", address: "Helsinki, Finland 00100" },
+  Bangladesh: { name: "Bangladesh", address: "Dhaka, Bangladesh 1000" },
+};
