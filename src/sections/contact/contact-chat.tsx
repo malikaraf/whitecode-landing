@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactChat = () => {
   return (
-    <div className="font-inter w-full overflow-x-hidden">
+    <div className="font-inter w-full overflow-x-hidden pb-[500px]">
       <div className="flex flex-col items-center justify-center pt-[220px]">
         <div className="text-center">
           <p className="text-5xl md:text-7xl lg:text-[4.5rem] pb-5">
