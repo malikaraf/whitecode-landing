@@ -4,11 +4,20 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import WorldMap from "@/assets/maps/world-110m.json";
 import { countries } from "@/data";
 import { Tooltip } from "@nextui-org/react";
+import { motion } from "framer-motion";
 
 const Map = () => {
 	return (
-		<div className="bg-blue-gradient">
-			<h2 className="font-jura font-[500] text-2xl md:text-4xl lg:text-6xl tracking-wide pt-4 md:pt-10 lg:pt-16 text-center">Where we are</h2>
+		<motion.div
+			initial={{ opacity: 0 }}
+			whileInView={{ opacity: 1 }}
+			transition={{ duration: 0.6 }}
+			viewport={{ once: true }}
+			className="bg-blue-gradient"
+		>
+			<h2 className="font-jura font-[500] text-2xl md:text-4xl lg:text-6xl tracking-wide pt-4 md:pt-10 lg:pt-16 text-center">
+				Where we are
+			</h2>
 			<ComposableMap
 				data-tip=""
 				projectionConfig={{ scale: 120 }}
@@ -17,7 +26,6 @@ const Map = () => {
 				<Geographies geography={WorldMap}>
 					{({ geographies }: { geographies: any }) =>
 						geographies.map((geo: any) => {
-							// Use geo.properties.name for country matching
 							const countryData = countries[geo.properties.name];
 
 							return (
@@ -61,7 +69,7 @@ const Map = () => {
 					}
 				</Geographies>
 			</ComposableMap>
-		</div>
+		</motion.div>
 	);
 };
 
