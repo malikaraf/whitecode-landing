@@ -10,7 +10,7 @@ const Addresses = () => {
   Where to find Us
 </p>
   </div>
-  <div className="flex justify-center mt-[250px] pb-[450px]">
+  <div className="flex justify-center mt-[250px] pb-[250px]">
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
   
