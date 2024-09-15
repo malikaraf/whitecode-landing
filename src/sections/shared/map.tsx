@@ -13,7 +13,7 @@ const Map = () => {
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 0.6 }}
 			viewport={{ once: true }}
-			className="bg-blue-gradient"
+			className="bg-custom"
 		>
 			<h2 className="font-jura font-[500] text-2xl md:text-4xl lg:text-6xl tracking-wide pt-4 md:pt-10 lg:pt-16 text-center">
 				Where we are
@@ -46,19 +46,19 @@ const Map = () => {
 											default: {
 												fill: countryData ? "#1E90FF" : "white",
 												stroke: "#FFFFFF00",
-												strokeWidth: 0.75,
+												strokeWidth: 1,
 												outline: "none",
 											},
 											hover: {
 												fill: countryData ? "#4682B4" : "white",
 												stroke: "#FFFFFF00",
-												strokeWidth: 0.75,
+												strokeWidth: 1,
 												outline: "none",
 											},
 											pressed: {
 												fill: countryData ? "#1E90FF" : "white",
 												stroke: "#FFFFFF00",
-												strokeWidth: 0.75,
+												strokeWidth: 1,
 												outline: "none",
 											},
 										}}
