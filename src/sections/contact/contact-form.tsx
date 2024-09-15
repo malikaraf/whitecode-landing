@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/Image";
 import { Button, ButtonGroup } from "@nextui-org/button";
 import { RadioGroup, Radio } from "@nextui-org/radio";
 import { Input, Textarea } from "@nextui-org/react";
 import { ICONS } from "@/utils/icons";
+import Image from "next/image";
 
 const ContactForm = () => {
   return (
