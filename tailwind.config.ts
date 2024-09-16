@@ -43,11 +43,11 @@ const config: Config = {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateY(0)' },
-          '100%': { transform: 'translateY(-50%)' },
+          '100%': { transform: 'translateY(-70%)' },
         },
       },
       animation: {
-        scroll: 'scroll 10s linear forwards',
+        scroll: 'scroll 15s linear forwards',
       },
     },
   },
