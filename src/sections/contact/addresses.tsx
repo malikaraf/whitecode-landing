@@ -21,7 +21,7 @@ const Addresses = () => {
         <div className="flex justify-center mt-[250px] pb-[250px] flex-wrap">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {addressData.map((address) => (
-              <AddressCard key={address.id} name={address.name} location={address.location} address={address.address} />
+              <AddressCard/>
             ))}
           </div>
         </div>
